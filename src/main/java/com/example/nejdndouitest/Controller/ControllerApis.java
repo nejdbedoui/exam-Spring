@@ -22,6 +22,11 @@ public class ControllerApis {
         return iService.addWorker(worker);
     }
 
+      @GetMapping("getalltest")
+    public String getalltest(){
+        return "hello world";
+    }
+
     @PostMapping("addWashingService")
     public void addWashingService(@RequestBody List<Washing_Service> washingservices){
          iService.addWashingService(washingservices);
