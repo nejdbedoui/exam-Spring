@@ -1,6 +1,6 @@
 <servers>
     <server>
-        <id>nexus-releases</id>
+        <id>spring</id>
         <username>admin</username>
         <password>admin</password>
     </server>
