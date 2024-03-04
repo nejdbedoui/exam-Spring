@@ -2,8 +2,8 @@
   <servers>
     <server>
       <id>spring</id>
-      <username>admin</username>
-      <password>admin</password>
+      <username>springproject</username>
+      <password>springproject</password>
     </server>
   </servers>
 </settings>
