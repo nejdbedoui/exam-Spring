@@ -42,7 +42,21 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
+         
+ <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <name>My Nexus Release Repository</name>
+            <url>http://192.168.1.60:8083/repository/maven-releases/</url>
+        </repository>
+          
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <name>My Nexus Snapshot Repository</name>
+            <url>http://192.168.1.60:8083/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+         
     <build>
         <plugins>
             <plugin>
