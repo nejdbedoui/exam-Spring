@@ -1,7 +1,9 @@
-<servers>
+<settings>
+  <servers>
     <server>
-        <id>spring</id>
-        <username>admin</username>
-       <password>admin</password>
+      <id>spring</id>
+      <username>admin</username>
+      <password>admin</password>
     </server>
-</servers>
+  </servers>
+</settings>
