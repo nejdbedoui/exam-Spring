@@ -1,9 +1,0 @@
-<settings>
-  <servers>
-    <server>
-      <id>spring</id>
-      <username>springproject</username>
-      <password>springproject</password>
-    </server>
-  </servers>
-</settings>
