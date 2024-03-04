@@ -43,12 +43,20 @@
         </dependency>
     </dependencies>
          
- <distributionManagement>
+
+         <distributionManagement>
     <repository>
-      <id>spring</id>
-      <url>http://192.168.1.60:8083/repository/spring/</url>
+      <id>nexus</id>
+      <name>Releases</name>
+      <url>http://192.168.1.60:8083/repository/maven-releases</url>
     </repository>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Snapshot</name>
+      <url>http://192.168.1.60:8083/repository/maven-snapshots</url>
+    </snapshotRepository>
   </distributionManagement>
+
          
     <build>
         <plugins>
