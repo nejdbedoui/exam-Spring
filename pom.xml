@@ -45,10 +45,10 @@
          
  <distributionManagement>
     <repository>
-        <id>spring</id>
-        <url>http://192.168.1.60:8083/repository/spring/</url>
+      <id>spring</id>
+      <url>http://192.168.1.60:8083/repository/spring/</url>
     </repository>
-</distributionManagement>
+  </distributionManagement>
          
     <build>
         <plugins>
