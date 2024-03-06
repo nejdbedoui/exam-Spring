@@ -13,7 +13,7 @@ import java.util.Map;
 
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("/controllers")
+@RequestMapping("controllers")
 public class ControllerApis {
     private final IService iService;
 
