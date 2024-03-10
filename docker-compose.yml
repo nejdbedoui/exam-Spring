@@ -19,5 +19,3 @@ services:
     environment:
       - MYSQL_DATABASE=examBedouiNejd2
       - MYSQL_ROOT_PASSWORD=123456789
-      - MYSQL_USER=root
-      - MYSQL_PASSWORD=123456789
