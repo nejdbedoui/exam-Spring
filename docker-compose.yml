@@ -7,10 +7,6 @@ services:
       - "8089:8089"
     depends_on:
       - mysql-db
-    environment:
-      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql-db:3307/examBedouiNejd2
-      - SPRING_DATASOURCE_USERNAME=root
-      - SPRING_DATASOURCE_PASSWORD=123456789
 
   mysql-db:
     image: mysql:latest
